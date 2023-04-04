@@ -18,11 +18,5 @@ namespace AzureDevOpsDemo.Controllers
             return _calculator.CalculateSum(a, b);
         }
 
-        [HttpGet, Route("Average", Name = "Average")]
-        public double Average(double a, double b)
-        {
-            return _calculator.CalculateAverage(a, b);
-        }
-
     }
 }
